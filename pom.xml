@@ -44,5 +44,17 @@
             <version>3.0.0-M1</version>
         </plugin>
     </plugins>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-31-250-releases</name>
+        <url>http://51.20.108.80:8081/artifactory/purush1</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-31-250-snapshots</name>
+        <url>http://51.20.108.80:8081/artifactory/purush1</url>
+     </snapshotRepository>
+</distributionManagement>
 </build>  
 </project>
